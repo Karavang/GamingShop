@@ -1,0 +1,96 @@
+.item-photo{
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    width: 700px;
+
+}
+.flexator-for-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 80px;
+   
+}
+.item-brand{
+    margin-left: 30px;
+}
+.items-card{
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+
+    width: 600px;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+.item-title{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.price-for-item{
+    display: flex;
+    justify-content: center;
+}
+.for-item-price-before{
+    color:#ABA9A9;
+    font-size: 30px;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.for-item-card-price-after{
+    color: red;
+    font-size: 45px;
+}
+.item-for-button{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px 90px;
+    border-radius: 20px;
+    background-color: blue;
+    color: aliceblue;
+    
+}
+.item-description-title{
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.item-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin: 0;
+
+}
+.item-description-text{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+
+.list-modal-area{
+    float: right;
+}
+.modal-area-size{
+    height:23px;
+}
+.modal-button-pay{
+    margin: 10px 125px;
+    padding: 20px 100px;
+    color: blue;
+    font-size: 20px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+

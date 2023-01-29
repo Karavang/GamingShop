@@ -1,0 +1,41 @@
+.modal-back{
+    background-color: aliceblue;
+    width: 350px;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+   
+}
+.modal-img{
+    width: 200px;
+margin-left: 21%;
+    padding-top: 10px;
+}
+.modal-price-after{
+    color: red;
+    font-size: 30px;
+}
+.modal-price-before{
+    color:#ABA9A9;
+    font-size: 20px;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.modal-price{
+
+    text-align: center;
+}
+.modal-title{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+.modal-button-buy{
+    position: absolute;
+    padding: 30px 130px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 30px;
+    bottom: 20px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="./dist/css/index.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <title>Varmilo Koi V2 VEA87</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img onclick="location.href='index.html';" src="./images/logo.png" alt="logo" class="logo-img">
+                <h1 class="header-title">Gaming-shop</h1>
+                <svg class="cart-img">
+                  <use href="./images/sprite.svg#cart"></use>
+                </svg>
+            </div>
+        </header>
+        <main>
+<section>
+    <ul class="flexator-for-item"></div>
+        <li class="flexator-for-item"> <img src="./images/for-item/keyboards/varmilo_va87_koi.jpg" alt="Varmilo Koi V2 VEA87" class="item-photo"></li>
+        <li class="flexator-for-item">
+            <div class="items-card ">
+                <h2 class="item-title">Varmilo Koi V2 VEA87</h2>
+                <h4 class="item-brand">Фірма:Varmilo</h4>
+                <p class="price-for-item"><span class="for-item-card-price-after">$182.55</span><span class="for-item-price-before">200$</span></p>
+                <div class="flexator-for-item">
+                    <button type="button"  class="item-for-button" data-bs-toggle="offcanvas" data-bs-target="#demo">У кошик</button>
+                </div>
+                
+            </div>
+        </li>
+
+</section>
+<section>
+    <div class="item-description">
+        <h1 class="item-description-title">Детальніше про товар</h1>
+        <p class="item-description-text">
+            Встречайте новую обновленную серию VA V2! Удивительные цветовые решения, которые вы любите, только что получили качественное обновление! Все клавиатуры этой серии теперь поставляются со стандартным кабелем USB-C. Подножка была модернизирована до двухсекционной, что дает вам еще больше возможностей. Все светодиоды теперь обращены на север для тех клавиатур, у которых они есть. Вся серия V2 имеет кабельные канавки на нижней части корпуса, позволяющие кабелю выходить из-под клавиатуры слева, справа или посередине, чтобы вы могли настроить пространство под себя. Звукоизоляционные силиконовые прокладки были размещены между печатной платой и позиционирующей пластиной, чтобы сделать ваш набор текста еще тише. Все световые индикаторы перемещены в правый верхний угол клавиатуры, чтобы не отвлекаться. Взгляните и изучите новую серию VA V2!
+        </p>
+    </div>
+</section>
+
+
+        </main>
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Оплата</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                <form>
+                  <ul class="list-modal-pay">
+                    <li>
+                        Card number
+                        <span class="list-modal-area"><input class="modal-area-size" id="card-number" type="text" placeholder="**** **** **** ****"></span>
+                      
+                    </li>
+                    <li>
+                      Expiration date
+                      <span class="list-modal-area"><input class="modal-area-size" id="card-expiry" type="text" placeholder="MM/YY"></span> 
+                    </li>
+                    <li>  
+                      CVC
+                      <span class="list-modal-area"><input class="modal-area-size" id="card-cvc" type="text" placeholder="***"></span> 
+                    </li>
+                  </ul>
+                  
+                </form>
+                
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button class="modal-button-pay" id="submit-button">Pay</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas offcanvas-start" id="demo">
+          <div class="offcanvas-header">
+            <h1 class="offcanvas-title">Кошик</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+         <button class="modal-button-buy btn btn-primary"  type="button"   data-bs-toggle="modal" data-bs-target="#myModal">Купити</button>
+          </div>
+        </div>
+        <footer>
+          <div class="footer-all">
+            <ul class="foot-list">
+              <li class="foot-el">
+                <h1 class="foot-title">Logo</h1>
+              </li>
+              <li class="foot-el">
+                <ul class="foot-soc">
+                  <li class="foot-soc-el">
+                    <img class="footer-icon" src="./images/footer/icons/inst.png" alt="Instagram">
+                  </li>
+                  <li class="foot-soc-el">
+                    <svg class="footer-icon">
+                      <use href="./images/sprite.svg#twitter"></use>
+                    </svg>
+                  </li>
+                  <li class="foot-soc-el">
+                    <svg class="footer-icon">
+                      <use href="./images/sprite.svg#linkedin"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </li>
+              <li class="foot-el">
+                <h3 onclick="location.href='https://jut.su/';" class='footer-anime-site'>Топ сайт для перегляду аніме</h3>
+              </li>
+            </ul>
+          </div>
+        </footer>
+        <script src="https://js.stripe.com/v3/"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
